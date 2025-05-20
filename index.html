@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florería Pétalos Perfectos</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Pétalos Perfectos</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-active">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#test">Test de Flores</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Encuentra la flor perfecta para cada ocasión</h2>
+                <p>En Pétalos Perfectos, ofrecemos las flores más bellas y frescas para expresar tus sentimientos en cualquier momento.</p>
+                <a href="#test" class="btn">Descubre tu flor ideal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Productos</h2>
+                <p>Explora nuestra variedad de arreglos florales y ramos para toda ocasión</p>
+            </div>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="images/Rosas.jpeg" alt="Ramo de Rosas">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Ramo de Rosas</h3>
+                        <p>Hermoso ramo de rosas rojas, símbolo de amor y pasión.</p>
+                        <p class="precio">$350</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="images/Girasoles.jpg" alt="Girasoles">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Girasoles</h3>
+                        <p>Arreglo de girasoles para iluminar cualquier espacio con su alegría.</p>
+                        <p class="precio">$280</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="images/tulipanes.jpeg" alt="Tulipanes">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Tulipanes</h3>
+                        <p>Elegante arreglo de tulipanes en varios colores vibrantes.</p>
+                        <p class="precio">$320</p>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <div class="producto-img">
+                        <img src="images/Orquídeas.jpg" alt="Orquídeas">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Orquídeas</h3>
+                        <p>Exóticas orquídeas para regalar o decorar con elegancia.</p>
+                        <p class="precio">$450</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Section -->
+    <section id="test">
+        <div class="container">
+            <div class="section-title">
+                <h2>Test de Flores Personalizadas</h2>
+                <p>Responde algunas preguntas y descubre qué flor va mejor con tu personalidad</p>
+            </div>
+            <div class="test-container">
+                <div class="test-intro">
+                    <h3>¿Qué flor te representa?</h3>
+                    <p>Responde este test para conocer cuál es la flor que mejor refleja tu esencia</p>
+                </div>
+                
+                <div id="preguntas-container">
+                    <div class="pregunta active" data-id="1">
+                        <h4>1. ¿Cómo describirías tu personalidad?</h4>
+                        <div class="opciones">
+                            <div class="opcion" data-valor="A">Soy extrovertido/a y lleno/a de energía</div>
+                            <div class="opcion" data-valor="B">Tranquilo/a y reflexivo/a</div>
+                            <div class="opcion" data-valor="C">Apasionado/a e intenso/a</div>
+                            <div class="opcion" data-valor="D">Sofisticado/a y elegante</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pregunta" data-id="2">
+                        <h4>2. ¿Qué color prefieres?</h4>
+                        <div class="opciones">
+                            <div class="opcion" data-valor="A">Amarillo o naranja</div>
+                            <div class="opcion" data-valor="B">Azul o púrpura</div>
+                            <div class="opcion" data-valor="C">Rojo o rosa intenso</div>
+                            <div class="opcion" data-valor="D">Blanco o tonos pastel</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pregunta" data-id="3">
+                        <h4>3. ¿Qué estación del año es tu favorita?</h4>
+                        <div class="opciones">
+                            <div class="opcion" data-valor="A">Verano</div>
+                            <div class="opcion" data-valor="B">Otoño</div>
+                            <div class="opcion" data-valor="C">Primavera</div>
+                            <div class="opcion" data-valor="D">Invierno</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pregunta" data-id="4">
+                        <h4>4. ¿Qué valoras más en una relación?</h4>
+                        <div class="opciones">
+                            <div class="opcion" data-valor="A">La alegría y diversión</div>
+                            <div class="opcion" data-valor="B">La lealtad y confianza</div>
+                            <div class="opcion" data-valor="C">La pasión y el romance</div>
+                            <div class="opcion" data-valor="D">La delicadeza y respeto</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pregunta" data-id="5">
+                        <h4>5. ¿Cuál de estos ambientes te atrae más?</h4>
+                        <div class="opciones">
+                            <div class="opcion" data-valor="A">Un campo abierto bajo el sol</div>
+                            <div class="opcion" data-valor="B">Un jardín tranquilo</div>
+                            <div class="opcion" data-valor="C">Un atardecer en la playa</div>
+                            <div class="opcion" data-valor="D">Un elegante salón</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="test-navigation">
+                    <button id="prev-btn" class="test-btn" disabled>Anterior</button>
+                    <button id="next-btn" class="test-btn" disabled>Siguiente</button>
+                </div>
+                
+                <div id="resultado">
+                    <h3>Tu flor ideal es:</h3>
+                    <div class="flor-recomendada">
+                        <img src="/api/placeholder/400/320" alt="Flor recomendada" id="flor-img">
+                        <h4 id="flor-nombre">Nombre de la flor</h4>
+                        <p id="flor-descripcion">Descripción de la flor</p>
+                        <a href="#productos" class="btn">Ver productos relacionados</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre nosotros</h3>
+                    <p>Pétalos Perfectos es una florería dedicada a ofrecer las flores más frescas y hermosas para cada ocasión especial.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#test">Test de Flores</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contáctanos</h3>
+                    <p>Calle Floral 123, Ciudad Jardín</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@petalosperfectos.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pétalos Perfectos - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
